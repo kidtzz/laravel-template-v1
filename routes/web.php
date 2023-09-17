@@ -15,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 $controller_path = 'App\Http\Controllers';
 
+
+//onprogress
+
+Route::get('/dashboard-admin', $controller_path . '\onprogress\dashboard_admin@index')->name('dashboard-admin');
+Route::get('/input_rekening', $controller_path . '\onprogress\dashboard_admin@input_rekening')->name('input_rekening');
+
 // Main Page Route
 Route::get('/', $controller_path . '\dashboard\Analytics@index')->name('dashboard-analytics');
 

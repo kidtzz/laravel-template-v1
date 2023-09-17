@@ -1,6 +1,24 @@
 {
   "menu": [
     {
+      "menuHeader": "On Progress"
+    },
+    {
+      "url": "/dashboard-admin",
+      "name": "Dashboard Admin",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-admin"
+    },
+    {
+      "url": "/input_rekening",
+      "name": "Pembayaran",
+      "icon": "menu-icon tf-icons bx bx-wallet",
+      "slug": "pembayaran"
+    },
+    {
+      "menuHeader": "Hmmm"
+    },
+    {
       "url": "/",
       "name": "Dashboard",
       "icon": "menu-icon tf-icons bx bx-home-circle",

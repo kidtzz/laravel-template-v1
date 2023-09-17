@@ -28,6 +28,7 @@ body {
   visibility: hidden;
   z-index: 3;
   transition: all 0.25s ease;
+
   &.show {
     visibility: visible;
   }
@@ -54,10 +55,12 @@ body {
 .img-thumbnail {
   position: relative;
   display: block;
+
   img {
     z-index: 1;
   }
 }
+
 .img-thumbnail-content {
   position: absolute;
   top: 50%;
@@ -127,7 +130,9 @@ body {
 // * IE Fixes
 // *******************************************************************************
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
   // Fix IE parent container height bug when containing image with fluid width
   .card,
   .card-body,
@@ -140,21 +145,5 @@ body {
   img {
     min-height: 1px;
     height: auto;
-  }
-}
-
-// * Buy now section
-// *******************************************************************************
-.buy-now {
-  .btn-buy-now {
-    position: fixed;
-    bottom: 3rem;
-
-    right: $container-padding-x;
-    z-index: $zindex-notification;
-    box-shadow: 0 1px 20px 1px $danger;
-    &:hover {
-      box-shadow: none;
-    }
   }
 }
