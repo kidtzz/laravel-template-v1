@@ -17,9 +17,24 @@ $controller_path = 'App\Http\Controllers';
 
 
 //onprogress
+$controller_path_admin = '\onprogress\role_admin';
+Route::get('/dashboard_admin', $controller_path . $controller_path_admin . '@index')->name('dashboard_admin');
+Route::get('/input_rekening', $controller_path . $controller_path_admin . '@input_rekening')->name('input_rekening');
 
-Route::get('/dashboard-admin', $controller_path . '\onprogress\dashboard_admin@index')->name('dashboard-admin');
-Route::get('/input_rekening', $controller_path . '\onprogress\dashboard_admin@input_rekening')->name('input_rekening');
+Route::get('/setting_home', $controller_path . $controller_path_admin . '@setting_home')->name('setting_home');
+Route::get('/setting_aboutus', $controller_path . $controller_path_admin . '@setting_aboutus')->name('setting_aboutus');
+Route::get('/setting_news', $controller_path . $controller_path_admin . '@setting_news')->name('setting_news');
+
+
+
+
+
+
+
+
+
+
+
 
 // Main Page Route
 Route::get('/', $controller_path . '\dashboard\Analytics@index')->name('dashboard-analytics');

@@ -1,6 +1,6 @@
 @extends('layouts/contentNavbarLayout')
 
-@section('title', 'Dashboard - Analytics')
+@section('title', 'Dashboard - Admin')
 
 @section('vendor-style')
 <link rel="stylesheet" href="{{asset('assets/vendor/libs/apex-charts/apex-charts.css')}}">
@@ -15,6 +15,7 @@
 @endsection
 
 @section('content')
+
 <div class="row">
   <div class="col-lg-8 mb-4 order-0">
     <div class="card">

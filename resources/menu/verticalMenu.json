@@ -4,16 +4,66 @@
       "menuHeader": "On Progress"
     },
     {
-      "url": "/dashboard-admin",
-      "name": "Dashboard Admin",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "slug": "dashboard-admin"
-    },
-    {
-      "url": "/input_rekening",
-      "name": "Pembayaran",
-      "icon": "menu-icon tf-icons bx bx-wallet",
-      "slug": "pembayaran"
+      "name": "Role Admin",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "role-admin",
+      "submenu": [
+        {
+          "url": "/dashboard_admin",
+          "name": "Dashboard Admin",
+          "slug": "dashboard-admin"
+        },
+        {
+          "url": "/input_rekening",
+          "name": "Pembayaran",
+          "slug": "pembayaran"
+        },
+        {
+          "url": "/setting_home",
+          "name": "Setting Home",
+          "slug": "setting-home"
+        },
+        {
+          "url": "/setting_aboutus",
+          "name": "Setting About Us",
+          "slug": "setting-aboutus"
+        },
+        {
+          "url": "/setting_news",
+          "name": "Setting News",
+          "slug": "setting-news"
+        },
+        {
+          "url": "/menu-member-registration",
+          "name": "Menu Member Registration",
+          "slug": "menu-member-registration"
+        },
+        {
+          "url": "/member-approval",
+          "name": "Member Approval",
+          "slug": "member-approval"
+        },
+        {
+          "url": "/list-komposer",
+          "name": "List Komposer",
+          "slug": "list-komposer"
+        },
+        {
+          "url": "/list-history-pembayaran",
+          "name": "List History Pembayaraan",
+          "slug": "list-history-pembayaran"
+        },
+        {
+          "url": "/modul-pembayaran",
+          "name": "Modul Pembayaraan",
+          "slug": "modul-pembayaran"
+        },
+        {
+          "url": "/setting-split-settlement",
+          "name": "Setting Split Settlement",
+          "slug": "setting-split-settlement"
+        }
+      ]
     },
     {
       "menuHeader": "Hmmm"
