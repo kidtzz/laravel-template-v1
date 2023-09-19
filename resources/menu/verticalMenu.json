@@ -39,9 +39,9 @@
           "slug": "member_registration"
         },
         {
-          "url": "/member-approval",
+          "url": "/member_approval",
           "name": "Member Approval",
-          "slug": "member-approval"
+          "slug": "member_approval"
         },
         {
           "url": "/list-komposer",

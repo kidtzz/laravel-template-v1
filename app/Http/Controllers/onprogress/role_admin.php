@@ -32,4 +32,8 @@ class role_admin extends Controller
     {
         return view('content.onprogress.member_registration');
     }
+    public function member_approval()
+    {
+        return view('content.onprogress.member_approval');
+    }
 }

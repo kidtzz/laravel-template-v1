@@ -26,6 +26,7 @@ Route::get('/setting_aboutus', $controller_path . $controller_path_admin . '@set
 Route::get('/setting_news', $controller_path . $controller_path_admin . '@setting_news')->name('setting_news');
 
 Route::get('/member_registration', $controller_path . $controller_path_admin . '@member_registration')->name('member_registration');
+Route::get('/member_approval', $controller_path . $controller_path_admin . '@member_approval')->name('member_approval');
 
 
 

@@ -23,9 +23,8 @@
         <tr>
           <th>Judul</th>
           <th>Sub Judul</th>
-          <th>Desckripsi</th>
+          <th>Deskripsi</th>
           <th>Author</th>
-          <th>Status</th>
           <th>Actions</th>
         </tr>
       </thead>
@@ -39,12 +38,8 @@
               <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="Sophia Wilkerson">
                 <img src="{{asset('assets/img/avatars/6.png')}}" alt="Avatar" class="rounded-circle">
               </li>
-              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="Christina Parker">
-                <img src="{{asset('assets/img/avatars/7.png')}}" alt="Avatar" class="rounded-circle">
-              </li>
             </ul>
           </td>
-          <td><span class="badge bg-label-primary me-1">Active</span></td>
           <td>
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
@@ -66,7 +61,6 @@
               </li>
             </ul>
           </td>
-          <td><span class="badge bg-label-success me-1">Completed</span></td>
           <td>
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
@@ -90,7 +84,6 @@
 
             </ul>
           </td>
-          <td><span class="badge bg-label-info me-1">Scheduled</span></td>
           <td>
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
@@ -110,15 +103,8 @@
               <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="Lilian Fuller">
                 <img src="{{asset('assets/img/avatars/5.png')}}" alt="Avatar" class="rounded-circle">
               </li>
-              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="Sophia Wilkerson">
-                <img src="{{asset('assets/img/avatars/6.png')}}" alt="Avatar" class="rounded-circle">
-              </li>
-              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="Christina Parker">
-                <img src="{{asset('assets/img/avatars/7.png')}}" alt="Avatar" class="rounded-circle">
-              </li>
             </ul>
           </td>
-          <td><span class="badge bg-label-warning me-1">Pending</span></td>
           <td>
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
