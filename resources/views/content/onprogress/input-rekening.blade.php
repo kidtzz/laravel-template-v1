@@ -18,7 +18,6 @@
         <div class="mb-3">
           <label for="exampleFormControlSelect1" class="form-label">Bank</label>
           <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-            <option selected>- Select -</option>
             <option value="1">BCA</option>
             <option value="2">MANDIRI</option>
             <option value="3">BNI</option>
@@ -26,7 +25,7 @@
           </select>
         </div>
         <div class="mb-3">
-          <label for="namarekening" class="form-label">Nama Pemilik Rekening </label>
+          <label for="namarekening" class="form-label">Nama Rekening </label>
           <input type="text" class="form-control" id="namarekening" />
         </div>
         <div class="mb-3">

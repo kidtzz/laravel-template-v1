@@ -25,7 +25,6 @@
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card mb-4">
       <h5 class="card-header">Float label</h5>
       <div class="card-body">
         <div class="form-floating">

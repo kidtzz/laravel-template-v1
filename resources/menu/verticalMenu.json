@@ -34,9 +34,9 @@
           "slug": "setting-news"
         },
         {
-          "url": "/menu-member-registration",
+          "url": "/member_registration",
           "name": "Menu Member Registration",
-          "slug": "menu-member-registration"
+          "slug": "member_registration"
         },
         {
           "url": "/member-approval",

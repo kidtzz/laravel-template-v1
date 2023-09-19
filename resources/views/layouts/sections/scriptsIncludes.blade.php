@@ -10,4 +10,12 @@
   }
   gtag('js', new Date());
   gtag('config', 'GA_MEASUREMENT_ID');
+
+
+  // summernote
+  $("#summernote").summernote({
+    placeholder: "deskripsi",
+    tabsize: 2,
+    height: 300,
+  });
 </script>

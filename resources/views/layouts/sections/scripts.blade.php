@@ -7,6 +7,9 @@
 @yield('vendor-script')
 <script src="{{ asset(mix('assets/js/main.js')) }}"></script>
 
+<!-- summernote -->
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
 <!-- END: Theme JS-->
 <!-- Pricing Modal JS-->
 @stack('pricing-script')

@@ -28,4 +28,8 @@ class role_admin extends Controller
     {
         return view('content.onprogress.setting_home_aboutus_news');
     }
+    public function member_registration()
+    {
+        return view('content.onprogress.member_registration');
+    }
 }

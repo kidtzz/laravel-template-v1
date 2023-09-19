@@ -25,10 +25,7 @@ Route::get('/setting_home', $controller_path . $controller_path_admin . '@settin
 Route::get('/setting_aboutus', $controller_path . $controller_path_admin . '@setting_aboutus')->name('setting_aboutus');
 Route::get('/setting_news', $controller_path . $controller_path_admin . '@setting_news')->name('setting_news');
 
-
-
-
-
+Route::get('/member_registration', $controller_path . $controller_path_admin . '@member_registration')->name('member_registration');
 
 
 
