@@ -6,42 +6,42 @@
     {
       "name": "Role Admin",
       "icon": "menu-icon tf-icons bx bx-layout",
-      "slug": "role-admin",
+      "slug": "admin",
       "submenu": [
         {
-          "url": "/dashboard_admin",
+          "url": "admin/dashboard",
           "name": "Dashboard Admin",
-          "slug": "dashboard-admin"
+          "slug": "admin-dashboard"
         },
         {
-          "url": "/input_rekening",
+          "url": "admin/input_rekening",
           "name": "Pembayaran",
-          "slug": "pembayaran"
+          "slug": "admin-input_rekening"
         },
         {
-          "url": "/setting_home",
+          "url": "admin/setting_home",
           "name": "Setting Home",
-          "slug": "setting-home"
+          "slug": "admin-setting_home"
         },
         {
-          "url": "/setting_aboutus",
+          "url": "admin/setting_aboutus",
           "name": "Setting About Us",
-          "slug": "setting-aboutus"
+          "slug": "admin-setting_aboutus"
         },
         {
-          "url": "/setting_news",
+          "url": "admin/setting_news",
           "name": "Setting News",
-          "slug": "setting-news"
+          "slug": "admin-setting_news"
         },
         {
-          "url": "/member_registration",
+          "url": "admin/member_registration",
           "name": "Menu Member Registration",
-          "slug": "member_registration"
+          "slug": "admin-member_registration"
         },
         {
-          "url": "/member_approval",
+          "url": "admin/member_approval",
           "name": "Member Approval",
-          "slug": "member_approval"
+          "slug": "admin-member_approval"
         },
         {
           "url": "/list-komposer",

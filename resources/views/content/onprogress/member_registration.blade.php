@@ -73,7 +73,6 @@
   <div class="col-md-12">
     <div class="card mb-4">
       <h5 class="card-header">Profile Details</h5>
-      <!-- Account -->
       <div class="card-body">
         <div class="d-flex align-items-start align-items-sm-center gap-4">
           <img src="{{asset('assets/img/avatars/1.png')}}" alt="user-avatar" class="d-block rounded" height="100" width="100" id="uploadedAvatar" />
@@ -102,12 +101,12 @@
             </div>
             <div class="mb-3 col-md-6">
               <label for="lastName" class="form-label">Last Name</label>
-              <input class="form-control" type="text" name="lastName" id="lastName" value="User" />
+              <input class="form-control" type="text" name="lastName" id="lastName" placeholder="User" />
             </div>
 
             <div class="mb-3 col-md-6">
               <label for="username" class="form-label">Username</label>
-              <input class="form-control" type="text" name="username" id="username" value="AbcUsername" />
+              <input class="form-control" type="text" name="username" id="username" placeholder="AbcUsername" />
             </div>
 
             <div class="mb-3 col-md-6">
@@ -133,7 +132,7 @@
 
             <div class="mb-3 col-md-6">
               <label for="email" class="form-label">E-mail</label>
-              <input class="form-control" type="text" id="email" name="email" value="john.doe@example.com" placeholder="john.doe@example.com" />
+              <input class="form-control" type="text" id="email" name="email" placeholder="john.doe@example.com" />
             </div>
             <div class="mb-3 col-md-6">
               <label for="organization" class="form-label">Organization</label>
@@ -142,7 +141,6 @@
             <div class="mb-3 col-md-6">
               <label class="form-label" for="phoneNumber">Phone Number</label>
               <div class="input-group input-group-merge">
-                <span class="input-group-text">US (+1)</span>
                 <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="202 555 0111" />
               </div>
             </div>
@@ -239,7 +237,6 @@
           </div>
         </form>
       </div>
-      <!-- /Account -->
     </div>
   </div>
 </div>

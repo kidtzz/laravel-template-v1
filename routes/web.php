@@ -18,17 +18,17 @@ $controller_path = 'App\Http\Controllers';
 
 //onprogress
 $controller_path_admin = '\onprogress\role_admin';
-Route::get('/dashboard_admin', $controller_path . $controller_path_admin . '@index')->name('dashboard_admin');
-Route::get('/input_rekening', $controller_path . $controller_path_admin . '@input_rekening')->name('input_rekening');
 
-Route::get('/setting_home', $controller_path . $controller_path_admin . '@setting_home')->name('setting_home');
-Route::get('/setting_aboutus', $controller_path . $controller_path_admin . '@setting_aboutus')->name('setting_aboutus');
-Route::get('/setting_news', $controller_path . $controller_path_admin . '@setting_news')->name('setting_news');
+Route::get('admin/dashboard', $controller_path . $controller_path_admin . '@index')->name('admin-dashboard');
 
-Route::get('/member_registration', $controller_path . $controller_path_admin . '@member_registration')->name('member_registration');
-Route::get('/member_approval', $controller_path . $controller_path_admin . '@member_approval')->name('member_approval');
+Route::get('admin/input_rekening', $controller_path . $controller_path_admin . '@input_rekening')->name('admin-input_rekening');
 
+Route::get('admin/setting_home', $controller_path . $controller_path_admin . '@setting_home')->name('admin-setting_home');
+Route::get('admin/setting_aboutus', $controller_path . $controller_path_admin . '@setting_aboutus')->name('admin-setting_aboutus');
+Route::get('admin/setting_news', $controller_path . $controller_path_admin . '@setting_news')->name('admin-setting_news');
 
+Route::get('admin/member_registration', $controller_path . $controller_path_admin . '@member_registration')->name('admin-member_registration');
+Route::get('admin/member_approval', $controller_path . $controller_path_admin . '@member_approval')->name('admin-member_approval');
 
 
 
